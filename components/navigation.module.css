@@ -19,7 +19,7 @@
     padding-bottom: 50px;
 }
 .panel {
-    background: #2d2642;
+    background: var(--navigation-background);
     padding: 0 30px;
     border-radius: 40px;
     padding-right: 0;
@@ -49,7 +49,7 @@
 .line {
     width: 1px;
     height: 20px;
-    background: rgb(0, 0, 0, 0.2);
+    background: var(--border-color);
     margin-left: 10px;
     margin-right: 10px;
 }
