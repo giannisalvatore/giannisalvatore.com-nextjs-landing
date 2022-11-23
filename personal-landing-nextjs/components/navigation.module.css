@@ -1,0 +1,64 @@
+.top, .profile, .socialLinks, .panel{
+    display: flex;
+    align-items: center;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+.bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.panel{
+    background: #2D2642;
+    padding: 0 30px;
+    border-radius: 40px;
+    padding-right: 0;
+}
+.profile{
+    gap: 15px;
+}
+.name{
+    font-size: 400;
+    font-size: 14px;
+}
+.username{
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.profile img{
+    max-width: 40px;
+    border-radius: 100%;
+}
+.item{
+    font-size: 15px;
+    padding: 10px;
+    opacity: 0.8;
+}
+.line{
+    width: 1px;
+    height: 20px;
+    background: rgb(0,0,0,0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.top{
+    padding: 40px
+}
+.socialLinks{
+    gap: 25px;
+    font-size: 14px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.8;
+}
