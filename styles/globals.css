@@ -26,13 +26,6 @@
     font-weight: 700;
     font-display: swap;
 }
-@font-face {
-    font-family: "Beatrice";
-    src: url("/fonts/Beatrice-ExtraBold.woff2");
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-}
 
 body,
 input,
@@ -42,18 +35,8 @@ select {
     font-family: "Circular", sans-serif;
     font-weight: 300;
 }
-div{
+div {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
--moz-box-sizing: border-box;    /* Firefox, other Gecko */
-box-sizing: border-box;         /* Opera/IE 8+ */
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
-    body {
-        color: white;
-        background: #212121;
-    }
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
 }
