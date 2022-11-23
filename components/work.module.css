@@ -20,6 +20,39 @@
 .description {
     font-weight: 200;
     font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+.left {
+    max-width: 250px;
+}
+.tasks {
+    list-style-type: circle;
+}
+.tasks li {
+    font-weight: 200;
+    font-size: 18px;
     line-height: 26px;
     opacity: 0.8;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.tasks li:first-child {
+    margin-top: 0;
+}
+.tasks li:last-child {
+    margin-bottom: 0;
+}
+.left h2 {
+    margin-bottom: 10px;
+}
+.jobTitle {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.date {
+    font-size: 16px;
+    font-weight: 200;
 }
