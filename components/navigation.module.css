@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+    z-index: 2;
 }
 .panel {
     background: var(--navigation-background);
