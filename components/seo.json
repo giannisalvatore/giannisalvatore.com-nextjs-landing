@@ -1,10 +1,10 @@
 {
     "/": {
         "title": "Gianni Salvatore",
-        "description": ""
+        "description": "I'm a full stack developer specializing in building and designing exceptional digital experiences."
     },
-    "default":{
-        "title":"",
-        "description":""
+    "default": {
+        "title": "Gianni Salvatore",
+        "description": "I'm a full stack developer specializing in building and designing exceptional digital experiences."
     }
 }

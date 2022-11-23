@@ -6,8 +6,7 @@ export default function Work({ data }) {
             <img src={data.image} className={styles.cover}></img>
             <div className={styles.info}>
                 <div className={styles.left}>
-                    <h2>{data.title}</h2>
-                    <p className={styles.jobTitle}>{data.job.title}</p>
+                    <p className={styles.jobTitle}>{data.title}</p>
                     <p className={styles.date}>{data.job.date}</p>
                     <p className={styles.description}>{data.description}</p>
                 </div>

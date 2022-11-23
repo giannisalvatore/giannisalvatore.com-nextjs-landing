@@ -25,15 +25,15 @@
     margin-top: 20px;
 }
 .left {
-    max-width: 250px;
+    max-width: 300px;
 }
 .tasks {
     list-style-type: circle;
 }
 .tasks li {
     font-weight: 200;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 24px;
     opacity: 0.8;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -50,9 +50,10 @@
 .jobTitle {
     margin-bottom: 15px;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
 }
 .date {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 200;
+    opacity: 0.8;
 }

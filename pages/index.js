@@ -28,14 +28,14 @@ function getWorks() {
         shampora: {
             title: "Shampora",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non consectetur nunc. Vivamus at orci in ligula volutpat mattis. ",
+                "Shampora is an Italian startup that creates highly personalized products based on the needs of any customer's hair through 50 data points which the user responds through a quiz. Raised 5M+.",
             image: "/images/work_shampora.jpg",
             job: {
                 title: "Full stack developer",
                 date: "March 2018 - Present",
                 tasks: [
                     "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-                    "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
+                    "Work with a variety of different languages, platforms, frameworks, payment gateway and content management systems such as JavaScript, React, NextJS, NodeJS,  WordPress, AWS, Digital Ocean, Stripe, Braintree, and so on",
                     "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
                 ],
             },
@@ -43,15 +43,13 @@ function getWorks() {
         planny: {
             title: "Planny",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non consectetur nunc. Vivamus at orci in ligula volutpat mattis. ",
+                "Planny is a blazing fast Twitter scheduling tool with great features like AI Writing, Viral Tweets searcher and so on. It grew organically from 0 to 100 users, and 8 active subscription.",
             image: "/images/work_shampora.jpg",
             job: {
                 title: "Full stack developer & Designer",
                 date: "August 2022 - Present",
                 tasks: [
-                    "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-                    "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-                    "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+                    "Developed and maintained alone the code for the Planny website and the platform primarily using NextJS, NodeJS, MySQL, Stripe, AWS and PlanetScale",
                 ],
             },
         },
