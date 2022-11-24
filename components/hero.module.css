@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100vw;
 }
 
 .ellipse2 {
@@ -76,4 +77,19 @@
     font-weight: 200;
     opacity: 0.7;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .hero {
+        padding-left: 25px;
+    }
+    .hero h1 {
+        font-size: 58px;
+        line-height: 65px;
+    }
+    .hero p,
+    .hero div {
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
