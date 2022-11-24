@@ -99,12 +99,6 @@ export default function HeadComponent() {
                 />
                 <link
                     rel="preload"
-                    href="/fonts/CircularStd-Medium.woff"
-                    as="font"
-                    crossOrigin=""
-                />
-                <link
-                    rel="preload"
                     href="/fonts/CircularStd-Bold.woff"
                     as="font"
                     crossOrigin=""
