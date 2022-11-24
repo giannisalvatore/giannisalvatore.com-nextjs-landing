@@ -1,10 +1,21 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 import styles from "./work.module.css";
 
 export default function Work({ data }) {
     return (
-        <div className={styles.work}>
+        <motion.div
+            className={styles.work}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 1.5 }}
+            variants={{
+                visible: { opacity: 1 },
+                hidden: { opacity: 0 },
+            }}
+        >
             <div className={styles.coverContainer}>
                 <Image
                     src={data.image}
@@ -30,6 +41,6 @@ export default function Work({ data }) {
                     </ul>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
