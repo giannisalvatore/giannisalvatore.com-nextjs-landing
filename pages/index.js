@@ -1,10 +1,8 @@
 import dynamic from "next/dynamic";
 import { Suspense } from "react";
 
+import Hero from "../components/hero";
 const Navigation = dynamic(() => import("../components/navigation"), {
-    suspense: true,
-});
-const Hero = dynamic(() => import("../components/hero"), {
     suspense: true,
 });
 const Work = dynamic(() => import("../components/work"), {
