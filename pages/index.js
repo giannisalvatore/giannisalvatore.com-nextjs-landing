@@ -3,25 +3,29 @@ import { Suspense } from "react";
 import { getPlaiceholder } from "plaiceholder";
 
 import Hero from "../components/hero";
-const Navigation = dynamic(() => import("../components/navigation"), {
-    suspense: true,
-});
-const Work = dynamic(() => import("../components/work"), {
-    suspense: true,
-});
+import Layout from "../components/layout";
+
+const Work = dynamic(() => import("../components/work"), { suspense: true });
 
 export default function Home({ works }) {
+    return (
+        <Layout>
+            <Hero />
+            <WorksSection works={works} />
+        </Layout>
+    );
+}
+
+const WorksSection = ({ works }) => {
     const fallback = <>Loading</>;
     return (
         <Suspense fallback={fallback}>
-            <Navigation />
-            <Hero />
             <Work data={works.shampora} />
             <Work data={works.planny} />
             <Work data={works.nftwatcher} />
         </Suspense>
     );
-}
+};
 
 export async function getStaticProps() {
     return {
