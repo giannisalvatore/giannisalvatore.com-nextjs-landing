@@ -1,0 +1,26 @@
+.skills {
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 800px;
+}
+.skills h2 {
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 200;
+}
+.row {
+    display: flex;
+    gap: 50px;
+}
+.col ul {
+    list-style-type: "✓";
+    margin-bottom: 15px;
+}
+.col li {
+    font-weight: 200;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.col {
+    flex: 1;
+}

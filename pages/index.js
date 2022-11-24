@@ -4,6 +4,7 @@ import { getPlaiceholder } from "plaiceholder";
 
 import Hero from "../components/hero";
 import Layout from "../components/layout";
+import SkillsSection from "../components/skills";
 
 const Work = dynamic(() => import("../components/work"), { suspense: true });
 
@@ -12,6 +13,7 @@ export default function Home({ works }) {
         <Layout>
             <Hero />
             <WorksSection works={works} />
+            <SkillsSection />
         </Layout>
     );
 }
