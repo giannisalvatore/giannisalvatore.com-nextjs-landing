@@ -1,5 +1,9 @@
 import styles from "./footer.module.css";
 
 export default function Footer() {
-    return <></>;
+    return (
+        <div className={styles.footer}>
+            Designed & Built by Gianni Salvatore
+        </div>
+    );
 }

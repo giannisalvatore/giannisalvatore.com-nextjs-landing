@@ -1,5 +1,5 @@
 import Navigation from "./navigation";
-import Footer from "./navigation";
+import Footer from "./footer";
 
 import styles from "./layout.module.css";
 
