@@ -11,9 +11,9 @@ const Work = dynamic(() => import("../components/work"), {
 });
 
 export default function Home({ works }) {
-    console.log(works);
+    const fallback = <>Loading</>;
     return (
-        <Suspense fallback={`Loading...`}>
+        <Suspense fallback={fallback}>
             <Navigation />
             <Hero />
             <Work data={works.shampora} />
