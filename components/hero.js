@@ -28,7 +28,7 @@ export default function Hero() {
 
     return (
         <>
-            <Image src={BackgroundImage} layout="fill" />
+            <Image src={BackgroundImage} layout="fill" placeholder="blur" />
             <motion.div
                 className={styles.hero}
                 initial={{ opacity: 0 }}

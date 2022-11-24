@@ -5,6 +5,44 @@
     align-items: center;
     justify-content: center;
 }
+
+.ellipse2 {
+    position: absolute;
+    width: 846px;
+    height: 846px;
+    left: 474px;
+    top: -131.25px;
+
+    background: #000aff;
+    opacity: 0.2;
+    filter: blur(200px);
+    transform: rotate(30deg);
+}
+.ellipse3 {
+    position: absolute;
+    width: 846px;
+    height: 846px;
+    left: 1401.66px;
+    top: -46px;
+
+    background: #00d1ff;
+    opacity: 0.2;
+    filter: blur(200px);
+    transform: rotate(30deg);
+}
+.ellipse1 {
+    position: absolute;
+    width: 846px;
+    height: 846px;
+    left: 1003.29px;
+    top: -388px;
+
+    background: #ff00f5;
+    opacity: 0.25;
+    filter: blur(200px);
+    transform: rotate(30deg);
+}
+
 .hero h1 {
     font-size: 72px;
     line-height: 80px;
