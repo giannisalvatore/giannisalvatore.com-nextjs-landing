@@ -25,7 +25,12 @@ export default function Hero() {
     }, []);
 
     return (
-        <div className={styles.hero}>
+        <motion.div
+            className={styles.hero}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6 }}
+        >
             <div className={styles.insideHero}>
                 <div className={styles.topTitle}>Hi, my name is</div>
                 <h1>
@@ -39,6 +44,6 @@ export default function Hero() {
                     designing exceptional digital experiences.
                 </p>
             </div>
-        </div>
+        </motion.div>
     );
 }
