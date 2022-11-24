@@ -4,10 +4,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    background: url(/images/bg.png);
-    background-size: cover;
-    background-position: left;
 }
 .hero h1 {
     font-size: 72px;
