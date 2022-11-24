@@ -31,7 +31,7 @@ export default function HeadComponent() {
         "og:image:height": "586",
         "og:image:type": "image/jpeg",
         "og:site_name": siteName,
-        "og:image:alt": "Gianni Salvatore - Full stack developer",
+        "og:image:alt": description,
         "twitter:card": "summary",
         "twitter:image": og,
         "twitter:site": baseUrl,
