@@ -16,10 +16,6 @@ export default function HeadComponent() {
 
     let og = `https://og-image.vercel.app/${title}.png`;
 
-    if (path == "/") {
-        og = `https://d2ylvbv6ijkuas.cloudfront.net/og.jpeg`;
-    }
-
     let seo = {
         "og:locale": "en",
         "og:type": "website",
