@@ -1,18 +1,21 @@
 {
-  "name": "personal-landing-nextjs",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "akar-icons": "^1.9.22",
-    "framer-motion": "^7.6.9",
-    "next": "13.0.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+    "name": "personal-landing-nextjs",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@plaiceholder/next": "^2.5.0",
+        "akar-icons": "^1.9.22",
+        "framer-motion": "^7.6.9",
+        "next": "13.0.4",
+        "plaiceholder": "^2.5.0",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "sharp": "^0.31.2"
+    }
 }

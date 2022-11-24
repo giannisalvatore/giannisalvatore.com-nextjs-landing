@@ -9,9 +9,11 @@
     display: block;
     width: 100%;
     margin: 0 auto;
-    border-radius: 15px;
-    margin-top: 100px;
     max-width: calc(1200px - 80px);
+    border-radius: 15px;
+}
+.coverContainer {
+    margin-top: 100px;
 }
 .info h2 {
     font-size: 34px;

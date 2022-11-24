@@ -1,9 +1,21 @@
+import Image from "next/image";
+
 import styles from "./work.module.css";
 
 export default function Work({ data }) {
     return (
         <div className={styles.work}>
-            <img src={data.image} className={styles.cover}></img>
+            <div className={styles.coverContainer}>
+                <Image
+                    src={data.image}
+                    className={styles.cover}
+                    blurDataURL={data.placeholder.base64}
+                    placeholder="blur"
+                    layout="responsive"
+                    width={1812}
+                    height={855}
+                />
+            </div>
             <div className={styles.info}>
                 <div className={styles.left}>
                     <p className={styles.jobTitle}>{data.title}</p>
