@@ -18,6 +18,7 @@ export default function Home({ works }) {
             <Hero />
             <Work data={works.shampora} />
             <Work data={works.planny} />
+            <Work data={works.nftwatcher} />
         </Suspense>
     );
 }
@@ -59,6 +60,24 @@ export async function getStaticProps() {
                             "Developed and shipped highly interactive web application",
                             "Architected and implemented the design",
                             "Worked using NextJS, NodeJS, MySQL, Stripe, AWS and PlanetScale",
+                        ],
+                    },
+                },
+                nftwatcher: {
+                    title: "NFTWatcher",
+                    description:
+                        "NFTWatcher is a platform that send customized notifications of the price changes of NFTs.",
+                    image: "/images/work_shampora.jpg",
+                    placeholder: await getPlaiceholder(
+                        "/images/work_shampora.jpg"
+                    ),
+                    job: {
+                        title: "Full stack developer & Designer",
+                        date: "August 2022 - Present",
+                        tasks: [
+                            "Developed and shipped highly interactive web application",
+                            "Architected and implemented the design",
+                            "Worked using NextJS, PHP, MySQL, AWS S3 and AWS Managed Database",
                         ],
                     },
                 },
