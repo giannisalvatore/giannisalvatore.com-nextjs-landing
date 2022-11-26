@@ -15,19 +15,22 @@ export default function Skills() {
                 </div>
                 <div className={styles.col}>
                     <ul>
-                        <li>React</li>
-                        <li>Next.js</li>
-                        <li>Vanilla JS</li>
-                        <li>HTML / CSS</li>
+                        <li>Javascript (ES6)</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
                     </ul>
                 </div>
                 <div className={styles.col}>
                     <ul>
-                        <li>Node.js (+ packages)</li>
-                        <li>PHP</li>
-                        <li>PostgreSQL</li>
-                        <li>MySQL</li>
-                        <li>MongoDB</li>
+                        <li>Bootstrap</li>
+                        <li>jQuery</li>
+                        <li>React</li>
+                        <li>Next.js</li>
+                        <li>Node.js</li>
                     </ul>
                 </div>
                 <div className={styles.col}>
@@ -38,6 +41,15 @@ export default function Skills() {
                         <li>PlanetScale</li>
                         <li>Fly.io</li>
                         <li>Scaleway</li>
+                    </ul>
+                </div>
+                <div className={styles.col}>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Adobe XD</li>
+                        <li>Sketch</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Premiere</li>
                     </ul>
                 </div>
             </div>

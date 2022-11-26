@@ -46,8 +46,8 @@ export async function getStaticProps() {
                         date: "March 2018 - Present",
                         tasks: [
                             "Write modern, performant, maintainable code",
-                            "Work with a variety of different languages, platforms, frameworks, payment gateway and content management systems such as JavaScript, React, NextJS, NodeJS,  WordPress, AWS, Digital Ocean, Stripe, Braintree, and so on",
-                            "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+                            "Work with a variety of different languages, platforms, frameworks, payment gateway and content management systems such as JavaScript, React, Next.js, Node.js,  WordPress, AWS, Digital Ocean, Stripe, Braintree, and so on",
+                            "Communicate with multi-disciplinary teams of engineers, marketers and designers on a daily basis",
                         ],
                     },
                 },
@@ -65,7 +65,7 @@ export async function getStaticProps() {
                         tasks: [
                             "Developed and shipped highly interactive web application",
                             "Architected and implemented the design",
-                            "Worked using NextJS, NodeJS, MySQL, Stripe, AWS and PlanetScale",
+                            "Built with NextJS, NodeJS, MySQL, Stripe, AWS, PlanetScale and ☕️",
                         ],
                     },
                 },
