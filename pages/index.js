@@ -54,17 +54,17 @@ export async function getStaticProps() {
                 planny: {
                     title: "Planny",
                     description:
-                        "Planny is a blazing fast Twitter scheduling tool with features like AI Writing, Viral Tweets searcher and so on. It grew organically from 0 to 100 users, and 8 active subscription.",
-                    image: "/images/work_shampora.jpg",
+                        "Planny is a blazing fast Twitter scheduling tool with features like AI Writing, Viral Tweets searcher and so on. It grew organically from 0 to 100 users, and 10 active subscription.",
+                    image: "/images/work_planny.jpg",
                     placeholder: await getPlaiceholder(
-                        "/images/work_shampora.jpg"
+                        "/images/work_planny.jpg"
                     ),
                     job: {
-                        title: "Full stack developer & Designer",
-                        date: "August 2022 - Present",
+                        title: "Full stack developer & Product Designer",
+                        date: "August 2022 - Dic 2022",
                         tasks: [
                             "Developed and shipped highly interactive web application",
-                            "Architected and implemented the design",
+                            "UI / UX Design and implementation",
                             "Built with NextJS, NodeJS, MySQL, Stripe, AWS, PlanetScale and ☕️",
                         ],
                     },
@@ -72,17 +72,17 @@ export async function getStaticProps() {
                 nftwatcher: {
                     title: "NFTWatcher",
                     description:
-                        "NFTWatcher is a platform that send customized notifications of the price changes of NFTs.",
-                    image: "/images/work_shampora.jpg",
+                        "NFTWatcher is a platform that send customized notifications for price changes of chosen NFTs.",
+                    image: "/images/work_nftwatcher.jpg",
                     placeholder: await getPlaiceholder(
-                        "/images/work_shampora.jpg"
+                        "/images/work_nftwatcher.jpg"
                     ),
                     job: {
-                        title: "Full stack developer & Designer",
-                        date: "August 2022 - Present",
+                        title: "Full stack developer & Product Designer",
+                        date: "Jan 2022 - Mar 2022",
                         tasks: [
                             "Developed and shipped highly interactive web application",
-                            "Architected and implemented the design",
+                            "UI / UX Design and implementation",
                             "Worked using NextJS, PHP, MySQL, AWS S3 and AWS Managed Database",
                         ],
                     },

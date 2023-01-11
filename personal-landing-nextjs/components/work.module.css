@@ -1,0 +1,23 @@
+.info{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 70px;
+    padding-top: 50px;
+}
+.cover{
+    display: block;
+    max-width: calc(100vw - 80px);
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+.info h2{
+    font-size: 34px;
+    font-weight: 300;
+}
+.description{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+}
